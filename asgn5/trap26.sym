@@ -1,0 +1,12 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	ENBL              330E
+//	STPC              330F
+//	KBSR              3310
+//	KBDR              3311
+//	REG1              3312
+//	REG2              3313
+//	REG3              3314
+

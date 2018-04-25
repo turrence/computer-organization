@@ -1,0 +1,17 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	LOOP1             3306
+//	LOOP2             3309
+//	GOBACK            330B
+//	FINISHED          3311
+//	KBSR              3318
+//	KBDR              3319
+//	DSR               331A
+//	DDR               331B
+//	TEMP7             331C
+//	TEMP1             331D
+//	TEMP2             331E
+//	TEMP3             331F
+

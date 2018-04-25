@@ -1,0 +1,18 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	RESET             3000
+//	USER              3003
+//	DONE              300A
+//	CHK               300F
+//	STP               3017
+//	NVWL              3019
+//	CLR               301E
+//	noRE              3023
+//	PROMPT            3024
+//	RESULT            3033
+//	AY                3044
+//	VWL               3048
+//	DATA              304E
+

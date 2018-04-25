@@ -1,0 +1,33 @@
+; Terence Tong 
+; count ones
+; 1. x9928
+; 2. R2 is used as a memory address for which value to add next
+; 3. R2 is incremented so it doesn't add the number at the same memory address
+; 4. R4 is loaded to 10 so the program only loops 10 times as set in the condition in the BRP statement
+
+; R0 - count the number of 1s
+; R1 - loop counter
+; R4 - mask
+; R5 - masked value
+; R6 - memory address of data
+; R3 - memory[R6] i.e data
+
+
+0011 0000 0000 0000   ; start the program at location 3000
+0101 000 000 1 00000   ; clear R0
+0101 001 001 1 00000   ; clear R1
+0001 001 001 1 10000   ; make r1 #-16
+0101 100 100 1 00000   ; clear R4
+0001 100 100 1 00001   ; make r4 #1
+1110 110 011111010     ; load starting address of data in r6
+0110 011 110 000000    ; R3 = memory[R6] 
+0101 101 011 0 00 100  ; AND r5, r3, r4 
+                       ; because r3 has a singular 1 if the R5 is 0                       
+                       ; skip the increment the 1s counter
+0000 010 000000001     ; BRz skip the increment 
+0001 000 000 1 00001   ; increment the amount of ones (R0)
+0001 100 100 0 00 100  ; left shift R4
+0001 001 001 1 00001   ; r1++ loop counter
+0000 100 1 11111010    ; BRn (checks if r1 is negative still) go back to the and 
+0111 000 110 000001    ; store r0 in x3101
+1111 0000 00100101     ; halt

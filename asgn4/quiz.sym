@@ -1,0 +1,22 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	BEST              301D
+//	GOOD              3020
+//	BAD               3023
+//	WORST             3026
+//	INPT              3029
+//	ADDP              302F
+//	Q1                3034
+//	Q2                3035
+//	Q3                3036
+//	promptAns         3037
+//	ANS1              3040
+//	ANS2              3041
+//	ANS3              3042
+//	BESTR             3043
+//	GOODR             3044
+//	BADR              3045
+//	WORSTR            3046
+

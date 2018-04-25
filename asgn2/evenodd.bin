@@ -1,0 +1,8 @@
+0011 0000 0000 0000   ; start the program at location 3000
+0101 001 001 1 00000  ; clear R1
+0101 100 100 1 00000  ; clear R4
+0010 011 000101101    ; get the data at x3030
+0001 100 100 1 00001  ; load the mask into R4
+0101 001 011 000 100  ; AND R4 and R3, put results in R1
+0011 001 000101011    ; store answer in x3031
+1111 0000 00100101    ; halt

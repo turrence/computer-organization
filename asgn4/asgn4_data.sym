@@ -1,0 +1,15 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	Q1                3300
+//	Q1Answ            3355
+//	Q2                3359
+//	Q2Answ            33BC
+//	Q3                33C0
+//	Q3Answ            344B
+//	Result1           344F
+//	Result2           346A
+//	Result3           3499
+//	Result4           34BE
+

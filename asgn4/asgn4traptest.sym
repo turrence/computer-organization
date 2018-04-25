@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	TEST              3000
+//	PROMPT            3009
+//	RESULT            3019
+//	STORE             3029
+

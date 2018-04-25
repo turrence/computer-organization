@@ -1,0 +1,17 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	CHAR              3306
+//	OTPT              330B
+//	PRN               3311
+//	KBSR              3318
+//	KBDR              3319
+//	DSR               331A
+//	DDR               331B
+//	REG0              331C
+//	REG1              331D
+//	REG2              331E
+//	REG3              331F
+//	REG4              3320
+

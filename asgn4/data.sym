@@ -1,0 +1,24 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	QQ1               3300
+//	Val_A1_1          334D
+//	Val_A1_2          334E
+//	Val_A1_3          334F
+//	Val_A1_4          3350
+//	QQ2               3351
+//	Val_A2_1          3393
+//	Val_A2_2          3394
+//	Val_A2_3          3395
+//	Val_A2_4          3396
+//	QQ3               3397
+//	Val_A3_1          33D5
+//	Val_A3_2          33D6
+//	Val_A3_3          33D7
+//	Val_A3_4          33D8
+//	Result1           33D9
+//	Result2           33F1
+//	Result3           3404
+//	Result4           3416
+

@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	CHAR_COUNT        3300
+//	SAME              331A
+//	LAST              3327
+//	RETURN            3329
+

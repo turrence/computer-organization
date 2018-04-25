@@ -1,0 +1,11 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	LOOP              3005
+//	END_MSG           3012
+//	TRP               302F
+//	IND               3030
+//	ISR               3031
+//	IND2              3032
+
